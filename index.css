@@ -23,7 +23,7 @@ h1 {
 }
 
 aside {
-  width: 15%;
+  width: 16%;
   padding-left: 15px;
   background-color: white;
   border-radius: 10px;
@@ -31,7 +31,43 @@ aside {
 }
 
 #info-of-me {
+  width: 84%;
   padding: 10px;
   background-color: white;
   border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-block-start: 0.25em;
+  margin-block-end: 0.5em;
+}
+
+img {
+  width: 200px;
+  border: 10px solid lightgray;
+  margin-right: 10px;
+}
+
+#img-and-info {
+  display: flex;
+}
+
+.list {
+  padding-left: 35px;
+}
+
+#red {
+  color: lightcoral;
+}
+
+#blue {
+  color: deepskyblue;
+}
+
+#more-info {
+  margin-top: 10px;
+  border: 10px solid white;
+  border-radius: 10px;
+  background-color: white;
 }

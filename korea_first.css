@@ -6,6 +6,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: lightgray;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -37,6 +38,8 @@ h2 {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+  margin-block-start: 0.25em;
+  margin-block-end: 0.25em;
 }
 
 #first-day {
@@ -47,13 +50,18 @@ h2 {
 #first-day p {
   padding: 15px;
   background-color: lightgray;
-  border: 20px solid white;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 h3 {
   border-left: 10px solid white;
   text-decoration: underline;
   text-align: center;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 img {
@@ -87,4 +95,9 @@ img {
   background-color: lightgray;
   border-left: 20px solid white;
   border-right: 20px solid white;
+}
+
+#shopping {
+  border-bottom: 20px solid white;
+  margin-bottom: 20px;
 }
